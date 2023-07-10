@@ -1,0 +1,438 @@
+{
+  "general": {
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "languages": [],
+    "publicKey": "nzjmdl",
+    "deviceRegKey": "q947vtfevq8vb73z121z79y73m",
+    "appName": "github",
+    "initialUrl": "https://github.com",
+    "screenOrientation": {
+      "iphone": null,
+      "ipad": null,
+      "androidPhone": null,
+      "androidTablet": null
+    },
+    "enableWindowOpen": true,
+    "userAgentAdd": "gonative",
+    "forceUserAgent": "",
+    "iosUserAgentAdd": "gonative",
+    "iosForceUserAgent": "",
+    "androidUserAgentAdd": "gonative",
+    "androidForceUserAgent": "",
+    "nativeBridgeUrls": [],
+    "iosBundleId": "io.gonative.ios.nzjmdl",
+    "androidPackageName": "io.gonative.android.nzjmdl",
+    "iosCustomHeaders": {},
+    "androidCustomHeaders": {}
+  },
+  "navigation": {
+    "ignorePageFinishedRegexes": [],
+    "redirects": [],
+    "iosPullToRefresh": true,
+    "androidPullToRefresh": false,
+    "iosConnectionOfflineTime": 10,
+    "androidConnectionOfflineTime": 10,
+    "regexInternalExternal": {
+      "active": true,
+      "rules": [
+        {
+          "internal": false,
+          "label": "Non-web links",
+          "regex": "^(?!https?://).*"
+        },
+        {
+          "internal": false,
+          "label": "Facebook",
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*"
+        },
+        {
+          "internal": false,
+          "label": "Twitter",
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*"
+        },
+        {
+          "internal": false,
+          "label": "Instagram",
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*"
+        },
+        {
+          "internal": false,
+          "label": "Google Maps",
+          "regex": "https?://maps\\.google\\.com.*"
+        },
+        {
+          "internal": false,
+          "label": "Google Maps Search",
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*"
+        },
+        {
+          "internal": false,
+          "label": "LinkedIn",
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*"
+        },
+        {
+          "internal": true,
+          "label": "All Other Links",
+          "regex": ".*"
+        }
+      ]
+    },
+    "deepLinkDomains": {
+      "enableAndroidApplinks": false,
+      "domains": []
+    },
+    "navigationTitles": {
+      "active": true,
+      "titles": []
+    },
+    "iosShowRefreshButton": false,
+    "androidShowRefreshButton": false,
+    "actionConfig": {
+      "active": true,
+      "actions": [],
+      "actionSelection": []
+    },
+    "navigationLevels": {
+      "active": true,
+      "levels": []
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "redirectLocations": [
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      },
+      "menus": [
+        {
+          "active": false,
+          "items": [
+            {
+              "url": "https://github.com/features/actions",
+              "label": "Actions\n        automate any workflow",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/features/packages",
+              "label": "Packages\n        host and manage packages",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/features/security",
+              "label": "Security\n        find and fix vulnerabilities",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/features/codespaces",
+              "label": "Codespaces\n        instant dev environments",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/features/copilot",
+              "label": "Copilot\n        write better code with ai",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/features/code-review",
+              "label": "Code review\n        manage code changes",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/features/issues",
+              "label": "Issues\n        plan and track work",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/features/discussions",
+              "label": "Discussions\n        collaborate outside of code",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/features",
+              "label": "All features",
+              "subLinks": []
+            },
+            {
+              "url": "https://docs.github.com/",
+              "label": "Documentation",
+              "subLinks": []
+            },
+            {
+              "url": "https://skills.github.com/",
+              "label": "Github skills",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.blog/",
+              "label": "Blog",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/enterprise",
+              "label": "Enterprise",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/team",
+              "label": "Teams",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/enterprise/startups",
+              "label": "Startups",
+              "subLinks": []
+            },
+            {
+              "url": "https://education.github.com/",
+              "label": "Education",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/solutions/ci-cd/",
+              "label": "Ci/cd & automation",
+              "subLinks": []
+            },
+            {
+              "url": "https://resources.github.com/devops/",
+              "label": "Devops",
+              "subLinks": []
+            },
+            {
+              "url": "https://resources.github.com/devops/fundamentals/devsecops/",
+              "label": "Devsecops",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/customer-stories",
+              "label": "Customer stories",
+              "subLinks": []
+            },
+            {
+              "url": "https://resources.github.com/",
+              "label": "Resources",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/sponsors",
+              "label": "Github sponsors\n        fund open source developers",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/readme",
+              "label": "The readme project\n        github community articles",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/topics",
+              "label": "Topics",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/trending",
+              "label": "Trending",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/collections",
+              "label": "Collections",
+              "subLinks": []
+            },
+            {
+              "url": "https://github.com/pricing",
+              "label": "Pricing",
+              "subLinks": []
+            }
+          ],
+          "name": "default"
+        }
+      ]
+    },
+    "tabNavigation": {
+      "active": false,
+      "tabMenus": [],
+      "tabSelectionConfig": []
+    },
+    "androidShowOfflinePage": true,
+    "iosShowOfflinePage": true,
+    "toolbarNavigation": {
+      "enabled": false,
+      "visibilityByPages": "allPages",
+      "visibilityByBackButton": "backButtonActive",
+      "regexes": [
+        {
+          "enabled": true,
+          "regex": ".*"
+        }
+      ],
+      "items": [
+        {
+          "system": "back",
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "refresh",
+          "enabled": false,
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        },
+        {
+          "system": "forward",
+          "enabled": false,
+          "titleType": "defaultText",
+          "visibility": "allPages",
+          "urlRegex": [
+            {
+              "enabled": true,
+              "regex": ".*"
+            }
+          ]
+        }
+      ]
+    },
+    "maxWindows": {
+      "enabled": false,
+      "numWindows": 5,
+      "autoClose": false
+    },
+    "iosOfflinePageHtml": "",
+    "androidOfflinePageHtml": "",
+    "offlinePageHtml": ""
+  },
+  "styling": {
+    "iosLaunchScreen": {
+      "backgroundImage": "https://s3.amazonaws.com/gonativeio/images_generated/1688899780244_fajpmnyf1h9nm_FFFFFF_1_2x2.png",
+      "backgroundImageDark": "https://s3.amazonaws.com/gonativeio/images_generated/1688899780277_vyd97vyxb61vw_000000_1_2x2.png",
+      "backgroundColor": "#ffffff",
+      "backgroundColorDark": "#000000",
+      "centerImage": "https://gonativeio.s3.amazonaws.com/uploads/yt48nbkbrm0a0_1688899843288.png",
+      "centerImageDark": "https://gonativeio.s3.amazonaws.com/uploads/yt48nbkbrm0a0_1688899843288.png"
+    },
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "iosTheme": "default",
+    "androidLaunchImages": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899992500_0fkzgm3vejcym_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899992552_yu6akgh1uap0m_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899992581_tdxmehw1b063m_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899992623_vn0jdcup982wp_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899992696_mhcxkqjmb987u_720x720.9.png"
+    },
+    "androidLaunchImagesDark": {
+      "mdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899992801_7ngj6tjhrfv8c_180x180.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899992862_p56jbpktd3yna_270x270.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899992935_c44ha4g89z3zj_360x360.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899993026_p1vwh47bh81h0_540x540.9.png",
+      "xxxhdpi": "https://s3.amazonaws.com/gonativeio/images_generated/1688899993119_dgrbxxpk21wx6_720x720.9.png"
+    },
+    "androidTabPressedBackgroundColor": "#CCCCCC",
+    "androidTabPressedBackgroundColorDark": "#999999",
+    "androidBackgroundColor": "#FFFFFF",
+    "androidBackgroundColorDark": "#333333",
+    "icon": "https://gonativeio.s3.amazonaws.com/uploads/k4jnc3yv3ykfm_1688899899887.png",
+    "iosIcon": "https://gonativeio.s3.amazonaws.com/uploads/yt48nbkbrm0a0_1688899843288.png",
+    "iosDarkMode": "auto",
+    "iosEnableBlurInStatusBar": false,
+    "iosStatusBarStyle": "auto",
+    "iosEnableOverlayInStatusBar": false,
+    "iosStatusBarBackgroundColor": "#ffffffff",
+    "iosStatusBarBackgroundColorDark": "#000000",
+    "androidStatusBarStyle": "auto",
+    "androidEnableOverlayInStatusBar": false,
+    "androidStatusBarBackgroundColor": "#5C5C5C",
+    "androidStatusBarBackgroundColorDark": "#333333",
+    "iosTintColor": "#007aff",
+    "iosTintColorDark": "#adc5dc",
+    "androidIcon": "https://gonativeio.s3.amazonaws.com/uploads/yt48nbkbrm0a0_1688899843288.png",
+    "androidSplashBackgroundColor": "#FFFFFF",
+    "androidSplashBackgroundColorDark": "#000000",
+    "androidTheme": "auto",
+    "androidAccentColor": "#009688",
+    "androidAccentColorDark": "#80cbc4",
+    "androidPullToRefreshColor": "#1E496E",
+    "androidPullToRefreshColorDark": "#FFFFFF",
+    "androidWebviewTextZoom": null,
+    "hideWebviewAlpha": 0.5,
+    "androidSwipeNavigationBackgroundColor": "#FFFFFF",
+    "androidSwipeNavigationBackgroundColorDark": "#333333",
+    "androidSwipeNavigationActiveColor": "#000000",
+    "androidSwipeNavigationActiveColorDark": "#FFFFFF",
+    "androidSwipeNavigationInactiveColor": "#666666",
+    "androidSwipeNavigationInactiveColorDark": "#666666",
+    "navigationTitleImageLocation": "assets/defaults/logo1_white_padded.png",
+    "navigationTitleImageLocationDark": "assets/defaults/logo1_white_padded.png",
+    "iosTitleColor": "#333333",
+    "iosTitleColorDark": "#adc5dc",
+    "iosNavigationBarTintColor": "#f8f8f8",
+    "iosNavigationBarTintColorDark": "#333333",
+    "androidActionBarBackgroundColor": "#FFFFFF",
+    "androidActionBarBackgroundColorDark": "#333333",
+    "androidHeaderImage": "assets/defaults/logo1_white_padded.png",
+    "androidHeaderImageDark": "assets/defaults/logo1_white_padded.png",
+    "androidActionBarForegroundColor": "#1E496E",
+    "androidActionBarForegroundColorDark": "#FFFFFF",
+    "iosSidebarBackgroundColor": "#f8f8f8",
+    "iosSidebarBackgroundColorDark": "#333333",
+    "iosSidebarFont": "Default",
+    "iosHeaderImage": "https://gonativeio.s3.amazonaws.com/uploads/yt48nbkbrm0a0_1688899843288.png",
+    "iosHeaderImageDark": "https://gonativeio.s3.amazonaws.com/uploads/yt48nbkbrm0a0_1688899843288.png",
+    "iosSidebarTextColor": "#333333",
+    "iosSidebarTextColorDark": "#adc5dc",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarBackgroundColorDark": "#333333",
+    "androidSidebarForegroundColor": "#1E496E",
+    "androidSidebarForegroundColorDark": "#FFFFFF",
+    "androidSidebarSeparatorColor": "#CCCCCC",
+    "androidSidebarSeparatorColorDark": "#666666",
+    "androidSidebarHighlightColor": "#1E496E",
+    "androidSidebarHighlightColorDark": "#FFFFFF",
+    "androidShowLogoInSideBar": true,
+    "androidShowAppNameInSideBar": true,
+    "androidTabBarBackgroundColor": "#FFFFFF",
+    "androidTabBarBackgroundColorDark": "#333333",
+    "androidTabBarTextColor": "#949494",
+    "androidTabBarTextColorDark": "#FFFFFF",
+    "androidTabBarIndicatorColor": "#1E496E",
+    "androidTabBarIndicatorColorDark": "#666666",
+    "iosTabBarTintColor": "#f8f8f8",
+    "iosTabBarTintColorDark": "#333333",
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "navigationTitleImage": false,
+    "androidHideTitleInActionBar": false,
+    "showNavigationBar": false,
+    "showActionBar": false
+  },
+  "permissions": {
+    "usesGeolocation": false,
+    "iosLocationUsageDescription": "",
+    "iosCameraUsageDescription": "",
+    "enableWebRTC": false,
+    "androidDownloadToPublicStorage": false,
+    "iOSATTUserTrackingDescription": "",
+    "iOSRequestATTConsentOnLoad": false
+  },
+  "developmentTools": {
+    "enableWebConsoleLogs": false
+  },
+  "services": {
+    "oneSignal": {
+      "active": false
+    }
+  }
+}
